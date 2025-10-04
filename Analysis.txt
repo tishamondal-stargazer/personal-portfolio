@@ -1,0 +1,77 @@
+Project Title: Personal Portfolio Website
+
+Objective:
+The aim of this project is to design and develop a personal portfolio website that showcases an individual’s profile, skills, projects, and contact information. The website serves as a digital resume to represent professional identity online.
+
+Tools & Technologies:
+
+Frontend: HTML, CSS
+
+Backend: JavaScript (with Flask or Node.js, optional for future)
+
+Version Control: Git & GitHub
+
+Editor: Visual Studio Code
+
+Team Members & Roles:
+
+Tisha Mondal – Project Manager, Frontend Developer, Tester
+
+Gunisha Ghutke – UI/UX Developer, Backend Developer
+
+Workflow of GitHub Collaboration:
+
+Step 1 – Project Manager (Tisha):
+
+Creates GitHub repository and uploads Analysis.txt.
+
+Assigns Issue “Design Portfolio UI” to Gunisha (UI/UX Developer).
+
+Step 2 – UI/UX Developer (Gunisha):
+
+Creates a branch named feature/ui-ux-design.
+
+Designs the layout of the portfolio (homepage, about, contact) in PDF format.
+
+Uploads the design file (Portfolio_UI_Design.pdf) to that branch.
+
+Creates a Pull Request (PR) → Reviewer: Tisha.
+
+After approval, the branch is merged into main.
+
+Step 3 – Frontend Developer (Tisha):
+
+Uses the approved design PDF to create website structure using 3 files:
+
+index.html
+
+style.css
+
+thankyou.html
+
+Commits changes with message like:
+
+feat(frontend): added homepage and styles by Tisha
+
+Pushes and merges branch into main.
+
+Step 4 – Backend Developer (Gunisha):
+
+Adds script.js for backend or form handling.
+
+Commits with message like:
+
+feat(backend): added script.js by Gunisha
+
+Merges into main branch.
+
+Step 5 – Tester (Tisha):
+
+Tests all functionality, form submission, and UI alignment.
+
+Finalizes the project version Dev 1.0.
+
+Exports GitHub repository ZIP and deployment link.
+
+Expected Output:
+A responsive, single-page personal portfolio website with smooth navigation and working contact form.
